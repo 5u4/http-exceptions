@@ -33,11 +33,12 @@ const fourHundredHttpExceptionTestDataProvider = [
     {exception: require('../../src/HttpExceptions/4XX/ClientClosedRequestHttpException'), expectedStatusCode: 499},
 ];
 
-describe('4XX Http Exception tests', function() {
+describe('4XX http exception tests', function() {
     fourHundredHttpExceptionTestDataProvider.forEach(function(data) {
         it('should have status code ' + data.expectedStatusCode, function() {
             const httpException = new data.exception();
             httpException.should.have.property('statusCode').equal(data.expectedStatusCode);
+            httpException.getStatusCode().should.be.equal(data.expectedStatusCode);
         });
     });
 });
@@ -57,11 +58,12 @@ const fiveHundredHttpExceptionTestDataProvider = [
     {exception: require('../../src/HttpExceptions/5XX/NetworkConnectTimeoutErrorHttpException'), expectedStatusCode: 599},
 ];
 
-describe('5XX Http Exception tests', function() {
+describe('5XX http exception tests', function() {
     fiveHundredHttpExceptionTestDataProvider.forEach(function(data) {
         it('should have status code ' + data.expectedStatusCode, function() {
             const httpException = new data.exception();
             httpException.should.have.property('statusCode').equal(data.expectedStatusCode);
+            httpException.getStatusCode().should.be.equal(data.expectedStatusCode);
         });
     });
 });
