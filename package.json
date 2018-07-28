@@ -1,0 +1,22 @@
+{
+  "name": "@senhung/http-exceptions",
+  "version": "1.0.2",
+  "description": "⚠️ Http server side error exceptions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senhungwong/http-exceptions.git"
+  },
+  "author": "Senhung Wong <0x53656e@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senhungwong/http-exceptions/issues"
+  },
+  "homepage": "https://github.com/senhungwong/http-exceptions#readme",
+  "keywords": [
+    "http", "exceptions", "server-side-error", "http-exceptions", "restful", "rest", "http-server-exceptions"
+  ]
+}
