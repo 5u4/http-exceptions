@@ -4,7 +4,7 @@
   "description": "⚠️ Http server side error exceptions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests --recursive"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,16 @@
   },
   "homepage": "https://github.com/senhungwong/http-exceptions#readme",
   "keywords": [
-    "http", "exceptions", "server-side-error", "http-exceptions", "restful", "rest", "http-server-exceptions"
-  ]
+    "http",
+    "exceptions",
+    "server-side-error",
+    "http-exceptions",
+    "restful",
+    "rest",
+    "http-server-exceptions"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
