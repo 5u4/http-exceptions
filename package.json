@@ -1,6 +1,6 @@
 {
   "name": "@senhung/http-exceptions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "⚠️ Http server side error exceptions",
   "main": "index.js",
   "scripts": {
