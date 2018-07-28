@@ -3,7 +3,9 @@
         "strict": true,
         "importHelpers": true,
         "outDir": "dist",
-        "declaration": true
+        "declaration": true,
+        "target": "es6",
+        "module": "commonjs"
     },
     "include": [
         "src/**/*.ts"
