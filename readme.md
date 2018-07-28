@@ -1,5 +1,10 @@
 # Http Exceptions
 
+![Travis (.org)](https://img.shields.io/travis/senhungwong/http-exceptions.svg?style=flat-square)
+[![GitHub](https://img.shields.io/github/license/senhungwong/http-exceptions.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/@senhung/http-exceptions.svg?style=flat-square)](https://www.npmjs.com/package/@senhung/http-exceptions)
+
+
 ## Install
 
 ```bash
@@ -68,4 +73,10 @@ app.use((err, req, res, next) => {
     /* other errors */
     res.sandStatus(500);
 });
+```
+
+## Tests
+
+```bash
+$ npm test
 ```
