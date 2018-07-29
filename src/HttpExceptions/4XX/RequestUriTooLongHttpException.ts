@@ -12,5 +12,3 @@ export class RequestUriTooLongHttpException extends HttpException
         super(414, message);
     }
 }
-
-

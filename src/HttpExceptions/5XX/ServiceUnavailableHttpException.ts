@@ -12,5 +12,3 @@ export class ServiceUnavailableHttpException extends HttpException
         super(503, message);
     }
 }
-
-

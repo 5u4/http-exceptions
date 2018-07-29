@@ -13,5 +13,3 @@ export class FailedDependencyHttpException extends HttpException
         super(424, message);
     }
 }
-
-

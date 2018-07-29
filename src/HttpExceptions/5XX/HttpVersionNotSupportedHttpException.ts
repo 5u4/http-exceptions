@@ -12,5 +12,3 @@ export class HttpVersionNotSupportedHttpException extends HttpException
         super(505, message);
     }
 }
-
-

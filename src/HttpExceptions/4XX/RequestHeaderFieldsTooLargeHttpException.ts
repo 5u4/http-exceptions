@@ -13,5 +13,3 @@ export class RequestHeaderFieldsTooLargeHttpException extends HttpException
         super(431, message);
     }
 }
-
-

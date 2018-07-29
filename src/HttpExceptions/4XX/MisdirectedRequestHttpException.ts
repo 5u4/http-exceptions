@@ -13,5 +13,3 @@ export class MisdirectedRequestHttpException extends HttpException
         super(421, message);
     }
 }
-
-

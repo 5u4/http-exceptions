@@ -12,5 +12,3 @@ export class MethodNotAllowedHttpException extends HttpException
         super(405, message);
     }
 }
-
-

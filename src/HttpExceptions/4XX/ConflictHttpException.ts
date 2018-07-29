@@ -13,5 +13,3 @@ export class ConflictHttpException extends HttpException
         super(409, message);
     }
 }
-
-

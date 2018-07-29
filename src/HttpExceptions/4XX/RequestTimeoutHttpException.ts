@@ -12,5 +12,3 @@ export class RequestTimeoutHttpException extends HttpException
         super(408, message);
     }
 }
-
-

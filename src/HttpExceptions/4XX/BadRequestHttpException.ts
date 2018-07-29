@@ -13,5 +13,3 @@ export class BadRequestHttpException extends HttpException
         super(400, message);
     }
 }
-
-

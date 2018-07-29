@@ -12,5 +12,3 @@ export class GoneHttpException extends HttpException
         super(410, message);
     }
 }
-
-

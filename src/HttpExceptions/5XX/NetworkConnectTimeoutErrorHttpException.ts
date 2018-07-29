@@ -13,5 +13,3 @@ export class NetworkConnectTimeoutErrorHttpException extends HttpException
         super(599, message);
     }
 }
-
-

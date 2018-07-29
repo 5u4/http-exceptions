@@ -13,5 +13,3 @@ export class RequestedRangeNotSatisfiableHttpException extends HttpException
         super(416, message);
     }
 }
-
-

@@ -13,5 +13,3 @@ export class NotFoundHttpException extends HttpException
         super(404, message);
     }
 }
-
-

@@ -12,5 +12,3 @@ export class PaymentRequiredHttpException extends HttpException
         super(402, message);
     }
 }
-
-

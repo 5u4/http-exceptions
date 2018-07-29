@@ -13,5 +13,3 @@ export class IMATeapotHttpException extends HttpException
         super(418, message);
     }
 }
-
-

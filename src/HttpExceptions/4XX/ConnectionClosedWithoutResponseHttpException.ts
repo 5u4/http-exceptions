@@ -13,5 +13,3 @@ export class ConnectionClosedWithoutResponseHttpException extends HttpException
         super(444, message);
     }
 }
-
-

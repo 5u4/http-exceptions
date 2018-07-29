@@ -12,5 +12,3 @@ export class NetworkAuthenticationRequiredHttpException extends HttpException
         super(511, message);
     }
 }
-
-

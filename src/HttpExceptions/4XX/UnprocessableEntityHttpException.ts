@@ -14,5 +14,3 @@ export class UnprocessableEntityHttpException extends HttpException
         super(422, message);
     }
 }
-
-

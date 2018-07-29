@@ -12,5 +12,3 @@ export class TooManyRequestsHttpException extends HttpException
         super(429, message);
     }
 }
-
-

@@ -12,5 +12,3 @@ export class UnavailableForLegalReasonsHttpException extends HttpException
         super(451, message);
     }
 }
-
-

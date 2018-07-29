@@ -12,5 +12,3 @@ export class ProxyAuthenticationRequiredHttpException extends HttpException
         super(407, message);
     }
 }
-
-

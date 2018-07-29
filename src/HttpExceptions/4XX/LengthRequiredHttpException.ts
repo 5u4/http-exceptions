@@ -12,5 +12,3 @@ export class LengthRequiredHttpException extends HttpException
         super(411, message);
     }
 }
-
-

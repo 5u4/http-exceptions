@@ -12,5 +12,3 @@ export class LockedHttpException extends HttpException
         super(423, message);
     }
 }
-
-

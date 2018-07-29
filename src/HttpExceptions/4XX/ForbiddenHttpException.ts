@@ -12,5 +12,3 @@ export class ForbiddenHttpException extends HttpException
         super(403, message);
     }
 }
-
-

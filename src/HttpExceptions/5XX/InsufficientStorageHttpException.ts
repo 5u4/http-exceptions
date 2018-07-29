@@ -13,5 +13,3 @@ export class InsufficientStorageHttpException extends HttpException
         super(507, message);
     }
 }
-
-

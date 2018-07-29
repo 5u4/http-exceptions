@@ -12,5 +12,3 @@ export class GatewayTimeoutHttpException extends HttpException
         super(504, message);
     }
 }
-
-

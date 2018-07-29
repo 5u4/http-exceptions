@@ -13,5 +13,3 @@ export class VariantAlsoNegotiatesHttpException extends HttpException
         super(506, message);
     }
 }
-
-

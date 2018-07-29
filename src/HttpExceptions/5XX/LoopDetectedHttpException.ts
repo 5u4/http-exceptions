@@ -13,5 +13,3 @@ export class LoopDetectedHttpException extends HttpException
         super(508, message);
     }
 }
-
-

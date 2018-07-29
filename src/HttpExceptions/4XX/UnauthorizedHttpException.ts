@@ -12,5 +12,3 @@ export class UnauthorizedHttpException extends HttpException
         super(401, message);
     }
 }
-
-

@@ -13,5 +13,3 @@ export class UpgradeRequiredHttpException extends HttpException
         super(426, message);
     }
 }
-
-

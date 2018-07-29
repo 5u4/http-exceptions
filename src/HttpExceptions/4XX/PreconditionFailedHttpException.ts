@@ -12,5 +12,3 @@ export class PreconditionFailedHttpException extends HttpException
         super(412, message);
     }
 }
-
-

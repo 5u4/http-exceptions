@@ -13,5 +13,3 @@ export class UnsupportedMediaTypeHttpException extends HttpException
         super(415, message);
     }
 }
-
-

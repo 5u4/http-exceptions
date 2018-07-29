@@ -13,5 +13,3 @@ export class ClientClosedRequestHttpException extends HttpException
         super(499, message);
     }
 }
-
-

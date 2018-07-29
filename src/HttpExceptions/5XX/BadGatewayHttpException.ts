@@ -13,5 +13,3 @@ export class BadGatewayHttpException extends HttpException
         super(502, message);
     }
 }
-
-

@@ -12,5 +12,3 @@ export class NotImplementedHttpException extends HttpException
         super(501, message);
     }
 }
-
-

@@ -12,5 +12,3 @@ export class ExpectationFailedHttpException extends HttpException
         super(417, message);
     }
 }
-
-

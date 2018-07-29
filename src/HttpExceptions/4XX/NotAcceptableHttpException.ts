@@ -14,5 +14,3 @@ export class NotAcceptableHttpException extends HttpException
         super(406, message);
     }
 }
-
-

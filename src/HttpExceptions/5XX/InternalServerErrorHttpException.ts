@@ -12,5 +12,3 @@ export class InternalServerErrorHttpException extends HttpException
         super(500, message);
     }
 }
-
-

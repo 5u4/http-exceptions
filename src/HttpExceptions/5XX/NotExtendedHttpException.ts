@@ -13,5 +13,3 @@ export class NotExtendedHttpException extends HttpException
         super(510, message);
     }
 }
-
-
