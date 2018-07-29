@@ -1,5 +1,8 @@
 import { HttpException } from '../HttpException';
 
+/**
+ * The server is denying access to the resource as a consequence of a legal demand.
+ */
 export class UnavailableForLegalReasonsHttpException extends HttpException
 {
     /**

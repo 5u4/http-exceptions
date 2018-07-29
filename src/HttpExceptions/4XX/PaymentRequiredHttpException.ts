@@ -1,5 +1,8 @@
 import { HttpException } from '../HttpException';
 
+/**
+ * Reserved for future use.
+ */
 export class PaymentRequiredHttpException extends HttpException
 {
     /**

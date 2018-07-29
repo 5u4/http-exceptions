@@ -1,5 +1,8 @@
 import { HttpException } from '../HttpException';
 
+/**
+ * The client needs to authenticate to gain network access.
+ */
 export class NetworkAuthenticationRequiredHttpException extends HttpException
 {
     /**

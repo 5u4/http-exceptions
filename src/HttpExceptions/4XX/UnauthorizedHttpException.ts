@@ -1,5 +1,8 @@
 import { HttpException } from '../HttpException';
 
+/**
+ * The request has not been applied because it lacks valid authentication credentials for the target resource.
+ */
 export class UnauthorizedHttpException extends HttpException
 {
     /**

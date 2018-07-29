@@ -1,5 +1,8 @@
 import { HttpException } from '../HttpException';
 
+/**
+ * The server refuses to accept the request without a defined Content-Length.
+ */
 export class LengthRequiredHttpException extends HttpException
 {
     /**

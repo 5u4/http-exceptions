@@ -1,3 +1,6 @@
+/**
+ * A generic HTTP exception
+ */
 export class HttpException extends Error
 {
     /**

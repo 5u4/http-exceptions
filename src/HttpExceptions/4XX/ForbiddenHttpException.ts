@@ -1,5 +1,8 @@
 import { HttpException } from '../HttpException';
 
+/**
+ * The server understood the request but refuses to authorize it.
+ */
 export class ForbiddenHttpException extends HttpException
 {
     /**
