@@ -1,5 +1,5 @@
 const should        = require('chai').should();
-const HttpException = require('../../src/HttpExceptions/HttpException');
+const HttpException = require('../../dist').HttpException;
 
 describe('Http exception message tests', function() {
     it('should return the correct message after construct', function() {
@@ -16,7 +16,7 @@ describe('Http exception message tests', function() {
 
         const httpException = new HttpException(400);
 
-        httpException.should.have.property('message').null;
+        httpException.should.have.property('message').empty;
 
         httpException.setMessage(message);
         

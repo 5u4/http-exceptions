@@ -187,6 +187,16 @@ export { NotImplementedHttpException } from './HttpExceptions/5XX/NotImplemented
 export { BadGatewayHttpException } from './HttpExceptions/5XX/BadGatewayHttpException';
 
 /**
+ * The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.
+ */
+export { ServiceUnavailableHttpException } from './HttpExceptions/5XX/ServiceUnavailableHttpException';
+
+/**
+ * The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.
+ */
+export { GatewayTimeoutHttpException } from './HttpExceptions/5XX/GatewayTimeoutHttpException';
+
+/**
  * The server does not support, or refuses to support, the major version of HTTP that was used in the request message.
  */
 export { HttpVersionNotSupportedHttpException } from './HttpExceptions/5XX/HttpVersionNotSupportedHttpException';
