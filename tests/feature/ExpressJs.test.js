@@ -1,4 +1,4 @@
-const HttpExceptions = require('../../');
+const HttpExceptions = require('../..');
 const express        = require('express');
 const chai           = require('chai');
 const chaiHttp       = require('chai-http');
